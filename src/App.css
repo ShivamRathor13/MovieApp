@@ -496,18 +496,44 @@ a > span:hover {
     margin-bottom: 4rem;
   }
   .movie__heading2 {
-    width: 100vw;
+    width: 60vw;
+    margin: 20px auto;
+    text-align: center;
   }
-  .posterImage__description {
-    font-style: italic;
-    font-size: 0.8rem;
-    margin-bottom: 0rem;
-    width: 100%;
+  .posterImage__overlay {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10px;
   }
   .posterImage__title {
-    font-weight: 400;
-    font-size: 2rem;
+    font-weight: 200;
+    font-size: 1.4rem;
     margin-bottom: 0.4rem;
     text-align: left;
+  }
+  .posterImage__rating {
+    font-size: 1rem;
+  }
+  .posterImage__runtime {
+    font-size: 1rem;
+  }
+  .posterImage {
+    height: 280px;
+  }
+  .posterImage__description {
+    display: none;
+  }
+  .cards1 {
+    min-width: 300px;
+    /* margin-left: auto !important; */
+  }
+  .cards2 {
+    min-width: 300px;
+  }
+  .cards__img2 {
+    width: 150px;
+  }
+  .cards__overlay2 {
+    width: 150px;
   }
 }

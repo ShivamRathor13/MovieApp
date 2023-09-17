@@ -1,11 +1,10 @@
 import React from "react";
-import "../App.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div className="">
-      <nav className="navbar navbar-expand-lg  bg-black">
+      <nav className="navbar navbar-expand-lg bg-black">
         <div className="container-fluid">
           <Link to="/">
             <img
@@ -18,8 +17,8 @@ const Header = () => {
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -27,11 +26,8 @@ const Header = () => {
               <i className="fas fa-bars"></i>
             </span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarCollapse">
-            <ul
-              className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-              style={{ "--bs-scroll-height": "100px" }}
-            >
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
                   to="/movies/popular"

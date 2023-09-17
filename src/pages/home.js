@@ -145,7 +145,7 @@ const Home = () => {
             infiniteLoop={true}
             showStatus={false}
           >
-            {currentMovies.map((movie) => (
+            {currentMovies.slice(0, 5).map((movie) => (
               <Link
                 key={movie.id}
                 style={{ textDecoration: "none", color: "white" }}
